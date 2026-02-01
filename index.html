@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfolio</title>
+
+    <!-- Compiled Tailwind CSS -->
+    <link href="src/output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-slate-900 text-white font-sans overflow-x-hidden">
+    <!-- NAVBAR -->
+    <header class="w-full py-6 sticky top-0 z-50">
+      <nav
+        class="max-w-7xl mx-auto bg-[#0B1220] rounded-full px-6 py-4 flex items-center shadow-lg"
+      >
+        <!-- LOGO -->
+        <img
+          src="image/mylogo.png"
+          alt="Logo"
+          class="w-12 h-12 rounded-full object-cover bg-white p-1"
+        />
+
+        <!-- RIGHT SIDE -->
+        <div class="ml-auto flex items-center space-x-10">
+          <!-- MENU -->
+          <ul
+            class="hidden md:flex items-center space-x-8 text-lm text-gray-300"
+          >
+            <li class="hover:text-green-400 transition cursor-pointer"><a href="#home">Home</a></li>
+            <li class="hover:text-green-400 transition cursor-pointer"><a href="#about">
+              About</a>
+            </li>
+            <li class="hover:text-green-400 transition cursor-pointer"><a href="#services">
+              Services</a>
+            </li>
+            <li class="hover:text-green-400 transition cursor-pointer"><a href="#work">
+              My Work</a>
+            </li>
+          </ul>
+
+          <!-- CONTACT BUTTON -->
+          <a
+            href="#contact"
+            class="bg-green-500 text-black font-medium px-7 py-2.5 rounded-full hover:bg-white hover:text-black transition duration-300"
+          >
+            Contact Me
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="min-h-[70vh] flex items-center">
+      <div
+        class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-[1fr_auto] items-center gap-30"
+      >
+        <!-- LEFT CONTENT -->
+        <div class="max-w-xl text-center md:text-center order-2 md:order-1">
+          <p class="text-gray-400 mb-2">Hello there!</p>
+
+          <h1 class="text-4xl md:text-5xl font-bold mb-3">
+            I’m <span class="text-green-400">Megh Naik</span>
+          </h1>
+
+          <p class="text-gray-400 mb-8">
+            Creative Designer & Developer with expertise in AI tools
+          </p>
+
+          <!-- SKILLS -->
+          <div
+            class="flex flex-col gap-4 items-center md:items-center shadow-lg"
+          >
+            <div class="flex gap-4 flex-wrap justify-center md:items-center">
+              <span
+                class="px-6 py-2 rounded-full bg-green-500 text-black font-medium"
+              >
+                Web Design
+              </span>
+              <span
+                class="px-6 py-2 rounded-full bg-lime-400 text-black font-medium"
+              >
+                Web Development
+              </span>
+            </div>
+
+            <div class="flex gap-4 flex-wrap justify-center md:items-center">
+              <span
+                class="px-6 py-2 rounded-full bg-lime-400 text-black font-medium"
+              >
+                AI-Skilled
+              </span>
+              <span
+                class="px-6 py-2 rounded-full bg-green-500 text-black font-medium"
+              >
+                Graphic Design
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div
+          class="relative flex justify-center md:justify-end order-1 md:order-2"
+        >
+          <div
+            class="absolute w-72 h-72 rounded-full bg-gray-400 blur-3xl opacity-40"
+          ></div>
+
+          <img
+            src="image/megh.jpeg"
+            alt="Profile"
+            class="relative w-64 h-64 md:w-72 md:h-72 rounded-full object-cover"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="relative py-20">
+      <div class="max-w-7xl mx-auto px-6">
+        <!-- About Title -->
+        <div class="inline-block mb-16">
+          <span
+            class="px-6 py-2 rounded-full bg-white/10 text-white font-semibold backdrop-blur-md shadow-lg"
+          >
+            About Me
+          </span>
+        </div>
+
+        <!-- About Text -->
+        <div class="max-w-4xl text-gray-300 leading-relaxed mb-16">
+          <p class="mb-4">
+            Hi! <br />
+            My name is <span class="text-green-400 font-medium">Megh Naik</span
+            ><br />
+            I am a <span class="text-green-400">Creative Designer</span> &
+            <span class="text-green-400">Developer</span> with expertise in
+            <span class="text-green-400">AI tools</span>, focused on building
+            modern, user-friendly and visually engaging digital experience.
+          </p>
+
+          <p>
+            <span class="text-green-400 font-medium">My objectives:</span>
+            Challenge myself in new environments to learn, grow and continuously
+            improve my skills through real-world projects, while contributing
+            innovative and efficient solutions.
+          </p>
+        </div>
+
+        <!-- Glass Card -->
+        <div class="bg-white/5 backdrop-blur-xl rounded-3xl p-10 shadow-2xl">
+          <div class="grid md:grid-cols-2 gap-12">
+            <!-- EDUCATION -->
+            <div>
+              <h3 class="text-xl font-semibold mb-6">Education</h3>
+
+              <div class="space-y-4 text-gray-300">
+                <div>
+                  <p class="text-green-400">Higher Secondary</p>
+                  <p>Shree Shreeji English Medium School, Valoti</p>
+                  <p class="text-sm text-gray-400">2021</p>
+                </div>
+
+                <div>
+                  <p class="text-green-400">
+                    Diploma in Information Technology
+                  </p>
+                  <p>Bhagwan Mahavir Polytechnic, Surat</p>
+                  <p class="text-sm text-gray-400">2021 – 2024</p>
+                </div>
+
+                <div>
+                  <p class="text-green-400">Bachelor of Technology in IT</p>
+                  <p>Aditya Silver Oak Institute of Technology</p>
+                  <p class="text-sm text-gray-400">2024 – 2027</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- SOFT SKILLS -->
+            <div>
+              <h3 class="text-xl font-semibold mb-6">Soft Skills</h3>
+
+              <ul class="space-y-3 text-gray-400">
+                <li>Teamwork</li>
+                <li>Critical Thinking</li>
+                <li>Time Management</li>
+                <li>Communication</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div class="my-10 border-t border-white/20"></div>
+
+          <div class="grid md:grid-cols-2 gap-12">
+            <!-- TECHNICAL SKILLS (IMAGES) -->
+            <div>
+              <h3 class="text-xl font-semibold mb-6">Technical Skills</h3>
+
+              <div class="flex flex-wrap gap-5">
+                <img src="image/figma.png" class="w-10 h-10" alt="Figma" />
+                <img src="image/canva.png" class="w-10 h-10" alt="CSS" />
+                <img src="image/html.png" class="w-10 h-10" alt="HTML" />
+                <img
+                  src="image/bootstrap.png"
+                  class="w-10 h-10"
+                  alt="Bootstrap"
+                />
+                <img
+                  src="image/tailwind.png"
+                  class="w-10 h-10"
+                  alt="Tailwind"
+                />
+                <img src="image/js.png" class="w-10 h-10" alt="JavaScript" />
+                <img src="image/php.png" class="w-10 h-10" alt="PHP" />
+                <img src="image/python.png" class="w-10 h-10" alt="Python" />
+                <img src="image/github.png" class="w-10 h-10" alt="GitHub" />
+                <img src="image/aspnet.png" class="w-10 h-10" alt=".NET" />
+              </div>
+            </div>
+
+            <!-- LANGUAGES -->
+            <div>
+              <h3 class="text-xl font-semibold mb-6">Languages</h3>
+
+              <ul class="space-y-3 text-gray-400">
+                <li>Gujarati</li>
+                <li>Hindi</li>
+                <li>English</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- MY DESIGN SERVICES -->
+<section id="services" class="relative py-20 overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- TITLE -->
+     <div class="flex justify-end mb-16">
+      <span
+        class="px-6 py-2 rounded-full bg-white/10 text-white
+               font-semibold backdrop-blur-md shadow-lg"
+      >
+        My Services
+      </span>
+    </div>
+
+    <!-- SLIDER WRAPPER -->
+    <div
+      id="servicesSlider"
+      class="services-slider flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory
+             md:flex-row flex-col md:overflow-x-auto md:pb-4 gap-4"
+    >
+      <!-- CARD -->
+      <div class="service-card snap-center">
+        <img src="image/webdesign.png" alt="Web Design">
+        <h3>Web Design</h3>
+        <p>
+          User-centered website designs that are visually engaging and
+          functionally seamless.
+        </p>
+      </div>
+
+      <div class="service-card snap-center">
+        <img src="image/webde.png" alt="Web Development">
+        <h3>Web Development</h3>
+        <p>
+          Responsive, fast and scalable websites using modern
+          technologies and clean code.
+        </p>
+      </div>
+
+      <div class="service-card snap-center">
+        <img src="image/graphic.png" alt="Graphic Design">
+        <h3>Graphic Design</h3>
+        <p>
+          Creative visuals, logos and marketing assets that communicate
+          ideas clearly.
+        </p>
+      </div>
+
+      <div class="service-card snap-center">
+        <img src="image/ai.png" alt="AI Skilled">
+        <h3>AI Skilled</h3>
+        <p>
+          Using AI tools to enhance design, automate tasks and build
+          smarter digital solutions.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- MY WORK SECTION -->
+<section id="work" class="relative py-20">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- Section Title -->
+    <div class="inline-block mb-16">
+      <span class="px-6 py-2 rounded-full bg-white/10 text-white font-semibold backdrop-blur-md shadow-lg">
+        My Work
+      </span>
+    </div>
+
+    <!-- MASONRY LAYOUT -->
+    <div class="masonry">
+
+      <!-- ITEM -->
+      <div class="masonry-item work-item rounded-xl overflow-hidden bg-[#0B1220] shadow-lg">
+        <img src="image/mywork/4.jpg" class="work-img">
+      </div>
+
+      <div class="masonry-item work-item rounded-xl overflow-hidden bg-[#0B1220] shadow-lg">
+        <img src="image/mywork/5.jpg" class="work-img">
+      </div>
+
+      <div class="masonry-item work-item rounded-xl overflow-hidden bg-[#0B1220] shadow-lg">
+        <img src="image/mywork/7.jpg" class="work-img">
+      </div>
+
+      <div class="masonry-item work-item rounded-xl overflow-hidden bg-[#0B1220] shadow-lg">
+        <img src="image/mywork/3.png" class="work-img">
+      </div>
+
+      <div class="masonry-item work-item rounded-xl overflow-hidden bg-[#0B1220] shadow-lg">
+        <img src="image/mywork/2.png" class="work-img">
+      </div>
+
+      <div class="masonry-item work-item rounded-xl overflow-hidden bg-[#0B1220] shadow-lg">
+        <img src="image/mywork/1.png" class="work-img">
+      </div>
+
+      <div class="masonry-item work-item rounded-xl overflow-hidden bg-[#0B1220] shadow-lg">
+        <img src="image/mywork/8.png" class="work-img">
+      </div>
+
+      <div class="masonry-item work-item rounded-xl overflow-hidden bg-[#0B1220] shadow-lg">
+        <img src="image/mylogo.png" class="work-img">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- IMAGE PREVIEW MODAL -->
+<div id="imageModal"
+     class="fixed inset-0 bg-black/90 hidden items-center justify-center z-50">
+
+  <button onclick="closeModal()"
+          class="absolute top-6 right-6 text-white text-4xl">&times;</button>
+
+  <img id="modalImage"
+       class="max-w-[90%] max-h-[90%] rounded-xl shadow-2xl">
+</div>
+<script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = "1";
+        entry.target.style.transform = "translateY(0)";
+        entry.target.style.transition = "all 0.7s ease";
+      }
+    });
+  }, { threshold: 0.2 });
+
+  document.querySelectorAll(".work-item").forEach(item => {
+    observer.observe(item);
+  });
+</script>
+<!-- CONTACT SECTION -->
+<section id="contact" class="relative py-28 bg-[#0F172A] text-white">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- contact BADGE -->
+    <div class="flex justify-end mb-16">
+      <span
+        class="px-6 py-2 rounded-full bg-white/10 text-white
+               font-semibold backdrop-blur-md shadow-lg"
+      >
+        Contact Me
+      </span>
+    </div>
+
+   <!-- HEADING -->
+<div class="text-center mb-16">
+  <h2 class="contact-heading mb-3">Get In Touch</h2>
+  <p class="contact-subtext max-w-xl mx-auto">
+    Have a project in mind? Let’s work together to bring your vision to life.
+  </p>
+</div>
+
+<!-- CONTENT GRID -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
+
+  <!-- LEFT CARD -->
+  <div>
+    <h3 class="contact-title">Let’s Connect</h3>
+
+    <p class="contact-text">
+      I'm always interested in hearing about new projects and opportunities.
+    </p>
+
+    <div class="contact-info">
+      <div>
+        <p class="contact-label">Email</p>
+        <p class="contact-value">naikmegh7@gmail.com</p>
+      </div>
+
+      <div>
+        <p class="contact-label">Phone</p>
+        <p class="contact-value">+91 9624219859</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT CARD -->
+  <div class="contact-card">
+    <h3 class="contact-title">Send a Message</h3>
+
+    <form class="contact-form">
+
+      <div>
+        <label class="contact-label">Name</label>
+        <input type="text" placeholder="Your name" class="contact-input">
+      </div>
+
+      <div>
+        <label class="contact-label">Email</label>
+        <input type="email" placeholder="your.email@example.com" class="contact-input">
+      </div>
+
+      <div>
+        <label class="contact-label">Message</label>
+        <textarea placeholder="Tell me about your project..." class="contact-textarea"></textarea>
+      </div>
+
+      <button type="submit" class="contact-btn">
+        Send Message
+      </button>
+
+    </form>
+  </div>
+
+</div>
+
+
+</div>    
+</div>
+  </div>
+</section>
+<!-- FOOTER -->
+<footer class="w-full py-6">
+  <div>
+    <div
+      class="text-center max-w-7xl mx-auto bg-[#0B1220] rounded-full px-6 py-4 shadow-lg"
+    >
+      <p class="text-base md:text-lg text-gray-300">
+        © 2026 <span class="text-green-400 font-semibold">Megh Naik</span>. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+<script>
+  const slider = document.getElementById("servicesSlider");
+
+  let scrollAmount = 0;
+  const cardWidth = 300; // card width + gap
+
+  setInterval(() => {
+    if (!slider) return;
+
+    scrollAmount += cardWidth;
+
+    if (scrollAmount >= slider.scrollWidth - slider.clientWidth) {
+      scrollAmount = 0;
+    }
+
+    slider.scrollTo({
+      left: scrollAmount,
+      behavior: "smooth",
+    });
+  }, 3500);
+</script>
+
+
+  </body>
+</html>
